@@ -1,0 +1,141 @@
+import React from "react";
+import { Link, useLoaderData, useParams } from "react-router";
+import downloadImg from "../../assets/icon-downloads.png";
+import ratingImg from "../../assets/icon-ratings.png";
+import reviewImg from "../../assets/icon-review.png";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+
+const AppDetails = () => {
+  const { appId } = useParams();
+  const apps = useLoaderData();
+  const clickedApp = apps.find((app) => app.id === parseInt(appId));
+
+  if (!clickedApp) {
+    return (
+      <div className="p-20 text-center text-2xl font-bold">App Not Found</div>
+    );
+  }
+
+  const {
+    image,
+    title,
+    companyName,
+    downloads,
+    ratingAvg,
+    reviews,
+    size,
+    ratings,
+    description,
+  } = clickedApp;
+
+  return (
+    <div className="bg-[#000000]/5 py-12 md:py-20 px-4 md:px-10 lg:px-20 overflow-hidden min-h-screen">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center lg:items-start gap-10 pb-14">
+        <img
+          className="h-48 w-48 md:h-64 md:w-64 lg:h-80 lg:w-80 rounded-[40px] shadow-xl object-cover"
+          src={image}
+          alt={title}
+        />
+        <div className="flex-1 text-center lg:text-left">
+          <div className="border-b border-gray-300 pb-5 lg:pb-8">
+            <h3 className="text-4xl md:text-5xl font-bold mb-2">{title}</h3>
+            <p className="text-[#627382] text-lg">
+              Developed by{" "}
+              <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] font-semibold bg-clip-text text-transparent">
+                {companyName}
+              </span>
+            </p>
+          </div>
+          <div className="pt-6 lg:pt-8 flex flex-wrap justify-center lg:justify-start gap-8 lg:gap-12 pb-10">
+            <div className="flex flex-col items-center lg:items-start">
+              <img className="h-8 mb-2" src={downloadImg} alt="Download" />
+              <p className="text-[#001931] text-sm font-medium">Downloads</p>
+              <h3 className="text-3xl md:text-4xl font-black">{downloads}</h3>
+            </div>
+            <div className="flex flex-col items-center lg:items-start">
+              <img className="h-8 mb-2" src={ratingImg} alt="Ratings" />
+              <p className="text-[#001931] text-sm font-medium">Avg Rating</p>
+              <h3 className="text-3xl md:text-4xl font-black">{ratingAvg}</h3>
+            </div>
+            <div className="flex flex-col items-center lg:items-start">
+              <img className="h-8 mb-2" src={reviewImg} alt="Review" />
+              <p className="text-[#001931] text-sm font-medium">Reviews</p>
+              <h3 className="text-3xl md:text-4xl font-black">{reviews}</h3>
+            </div>
+          </div>
+
+          <Link className="btn px-10 py-4 bg-[#00D390] hover:bg-[#00b97e] border-none text-white font-bold rounded-lg shadow-lg transition-all active:scale-95">
+            Install Now ({size} MB)
+          </Link>
+        </div>
+      </div>
+      <hr className="border-gray-300" />
+      <div className="w-full my-10">
+        <h3 className="text-2xl font-bold mb-7.5">
+          Ratings
+        </h3>
+        <div className="h-72 md:h-96 w-full">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart
+              layout="vertical"
+              data={ratings}
+              margin={{ top: 20, right: 30, left: 0, bottom: 5 }}
+            >
+              <CartesianGrid
+                strokeDasharray="3 3"
+                horizontal={false}
+                stroke="#f1f5f9"
+              />
+              <XAxis
+                type="number"
+                domain={[0 ,"dataMax + 2000"]}
+                orientation="bottom"
+                stroke="#94a3b8"
+                fontSize={12}
+                tickFormatter={(value) => value.toLocaleString()}
+              />
+              <YAxis
+                dataKey="name"
+                type="category"
+                stroke="#475569"
+                fontSize={14}
+                fontWeight={400}
+                width={42}
+              />
+              <Tooltip
+                cursor={{ fill: "#f8fafc" }}
+                contentStyle={{
+                  borderRadius: "10px",
+                  border: "none",
+                  boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1)",
+                }}
+              />
+              <Bar
+                dataKey="count"
+                fill="#F97316"
+                barSize={28}
+                radius={[0, 0, 0, 0]}
+                animationDuration={1500}
+              />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+      <hr className="border-gray-300" />
+      <div>
+        <h3 className="text-2xl font-bold mb-6">Description</h3>
+        <p className="text-[#627382]">{description}</p>
+      </div>
+    </div>
+  );
+};
+
+export default AppDetails;

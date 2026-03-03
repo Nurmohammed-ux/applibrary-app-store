@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.ibb.co.com/RG0zT4dT/chatplus.png",
+    "title": "ChatPlus",
+    "companyName": "NovaSoft",
+    "id": 1,
+    "description": "A fast and secure messaging app with group chats and media sharing.",
+    "size": 45,
+    "reviews": "12.4k",
+    "ratingAvg": 4.5,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 6180 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/RfzPsXG/fitlife.png",
+    "title": "FitLife",
+    "companyName": "Healthify",
+    "id": 2,
+    "description": "Track workouts, calories, and daily fitness goals easily.",
+    "size": 62,
+    "reviews": "9.8k",
+    "ratingAvg": 4.2,
+    "downloads": "950k",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 650 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 3250 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6zYHN34/Notely.webp",
+    "title": "Notely",
+    "companyName": "Paperless Inc",
+    "id": 3,
+    "description": "Simple note-taking app with cloud sync and reminders.",
+    "size": 28,
+    "reviews": "15.4k",
+    "ratingAvg": 4.7,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 9800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/V0HT3f2R/fintrack.png",
+    "title": "FinTrack",
+    "companyName": "MoneyMind",
+    "id": 4,
+    "description": "Manage expenses, budgets, and savings in one place.",
+    "size": 54,
+    "reviews": "7.6k",
+    "ratingAvg": 4.0,
+    "downloads": "680k",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Mx085DD5/learn-Hub.png",
+    "title": "LearnHub",
+    "companyName": "EduWorks",
+    "id": 5,
+    "description": "Online learning platform with courses and quizzes.",
+    "size": 75,
+    "reviews": "18.4k",
+    "ratingAvg": 4.6,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 10850 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/39FQzXpn/weatherly.png",
+    "title": "Weatherly",
+    "companyName": "SkyNetics",
+    "id": 6,
+    "description": "Accurate weather forecasts with real-time alerts.",
+    "size": 33,
+    "reviews": "6.9k",
+    "ratingAvg": 4.1,
+    "downloads": "870k",
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HDJf9Ytp/task-Flow.jpg",
+    "title": "TaskFlow",
+    "companyName": "Productive Labs",
+    "id": 7,
+    "description": "Organize tasks, projects, and deadlines efficiently.",
+    "size": 48,
+    "reviews": "11.2k",
+    "ratingAvg": 4.4,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 4580 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zWpwzKwP/music-Box.png",
+    "title": "MusicBox",
+    "companyName": "SoundWave",
+    "id": 8,
+    "description": "Stream and download your favorite music playlists.",
+    "size": 85,
+    "reviews": "20.5k",
+    "ratingAvg": 4.3,
+    "downloads": "5.2M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 6800 },
+      { "name": "5 star", "count": 9100 }
+    ]
+  }
+]

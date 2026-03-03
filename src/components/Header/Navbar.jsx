@@ -26,7 +26,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-white shadow-sm px-20">
+    <div className="navbar bg-white px-4 lg:px-20">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -58,7 +58,7 @@ const Navbar = () => {
           className="btn btn-ghost text-xl font-bold bg-linear-to-r from-[#4f0de9] to-[#833ae9] bg-clip-text text-transparent"
         >
           <img className="h-10 p-1" src={logo} alt="Logo" />
-          Hero.IO
+          HERO.IO
         </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
