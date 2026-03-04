@@ -19,7 +19,7 @@ const Navbar = () => {
         Apps
       </NavLink>
 
-      <NavLink to="/installation" className={navStyles}>
+      <NavLink to="/installApp" className={navStyles}>
         Installation
       </NavLink>
     </>

@@ -7,8 +7,8 @@ const TrendingApp = ({ app }) => {
   const { id, image, title, downloads, ratingAvg } = app;
   return (
     <Link to={`/apps/${id}`}>
-      <div className="bg-white p-4 rounded-sm shadow-lg">
-        <img className="w-full rounded-lg h-44 lg:h-64" src={image} alt="App" />
+      <div className="bg-white p-4 rounded-sm shadow-sm transition-all hover:scale-105 hover:ease-out hover:shadow-lg">
+        <img className="w-full shadow-sm rounded-lg h-44 lg:h-64" src={image} alt="App" />
         <h4 className="my-4 text-xl text-left font-medium">{title}</h4>
         <div className="flex justify-between">
           <p className="text-[#00D390] bg-[#00D390]/10 px-3 py-1 flex items-center rounded-sm">

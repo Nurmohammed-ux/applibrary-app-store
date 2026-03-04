@@ -5,7 +5,7 @@ import TrendingApps from '../TrendingApps/TrendingApps';
 
 const Home = () => {
     return (
-        <div className='bg-[#000000]/5'>
+        <div className='bg-[#000000]/2'>
             <Banner />
             <Statistics />
             <TrendingApps />
