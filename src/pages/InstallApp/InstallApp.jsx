@@ -13,15 +13,15 @@ const InstallApp = ({ app, handleRemoveApp }) => {
   };
   return (
     <div className="bg-white p-4 flex justify-between items-center my-4 rounded-sm">
-      <div className="flex gap-10 items-center">
+      <div className="flex gap-3 md:gap-10 items-center">
         <img
-          className="h-20 w-20 rounded-lg shadow-sm"
+          className="h-full w-20 rounded-lg shadow-sm"
           src={image}
           alt={title}
         />
         <div className="text-left">
-          <h4 className="text-xl font-medium mb-3">{title}</h4>
-          <div className="grid grid-cols-3 max-w-sm ">
+          <h4 className="text-xl font-medium mb-2 md:mb-3">{title}</h4>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-y-1 gap-x-3 md:gap-x-0">
             <p className="w-24 text-[#00D390] flex items-center whitespace-nowrap">
               <img className="h-4 mr-2" src={downloadImg} alt="Download" />
               {downloads}
@@ -38,7 +38,7 @@ const InstallApp = ({ app, handleRemoveApp }) => {
       </div>
       <button
         onClick={handleRemove}
-        className="btn bg-[#00D390] px-4 py-3 text-white rounded-sm"
+        className="btn bg-[#00D390] px-4 py-3 font-bold text-white rounded-sm"
       >
         Uninstall
       </button>

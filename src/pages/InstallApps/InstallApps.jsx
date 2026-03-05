@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { getAppIdFromLS } from "../../Utilities/addToLS";
 import { useLoaderData } from "react-router";
 import InstallApp from "../InstallApp/InstallApp";
-import { PackageOpen } from "lucide-react";
+import { PackageOpen, ChevronDown } from "lucide-react";
 
 const InstallApps = () => {
   const appsData = useLoaderData();
@@ -52,7 +52,7 @@ const InstallApps = () => {
   };
   //   console.log(storedAppIds, installApps);
   return (
-    <div className="bg-[#000000]/3 py-12 md:py-20 text-center px-4 md:px-10 lg:px-20 min-h-100">
+    <div className="bg-[#000000]/2 py-12 md:py-20 text-center px-4 md:px-10 lg:px-20 min-h-100">
       <h2 className="text-3xl md:text-5xl font-bold mb-4">
         Your Installed Apps
       </h2>
@@ -64,15 +64,15 @@ const InstallApps = () => {
           {installedApps.length} Apps Found
         </h4>
         <button
-          className="btn"
+          className="btn bg-white"
           popoverTarget="popover-1"
           style={{ anchorName: "--anchor-1" } /* as React.CSSProperties */}
         >
-          Sort By {sortOrder ? `(${sortOrder})` : ""} Downloads
+          Sort By {sortOrder ? `(${sortOrder})` : ""} Downloads <ChevronDown />
         </button>
 
         <ul
-          className="dropdown menu w-42 rounded-box bg-base-100 shadow-sm"
+          className="dropdown menu w-46 rounded-box bg-base-100 shadow-sm"
           popover="auto"
           id="popover-1"
           style={{ positionAnchor: "--anchor-1" } /* as React.CSSProperties */}
