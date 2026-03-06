@@ -14,24 +14,39 @@ import { Link } from "react-router";
 const Footer = () => {
   return (
     <footer className="relative bg-[#222222] text-white pt-32 pb-10 [clip-path:polygon(0_15%,100%_0,100%_100%,0%_100%)]">
-
       <div className="container mx-auto px-6 md:px-20 lg:px-25">
-        {/* Top Section: Logo and Socials */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-6">
           <div className="flex items-center gap-2">
             <img className="h-10" src={logo} alt="Logo" />
             <div className="border-l border-gray-500 pl-3">
-              <h2 className="text-xl font-bold leading-none">AppLibrary</h2>
+              <Link to={"/"}>
+                <h2 className="text-xl font-bold leading-none">AppLibrary</h2>
+              </Link>
             </div>
           </div>
 
           <div className="flex gap-4 text-gray-400">
-            <Facebook size={18} className="hover:text-white cursor-pointer" />
-            <Twitter size={18} className="hover:text-white cursor-pointer" />
-            <Linkedin size={18} className="hover:text-white cursor-pointer" />
-            <Instagram size={18} className="hover:text-white cursor-pointer" />
-            <Github size={18} className="hover:text-white cursor-pointer" />
-            <Youtube size={22} className="hover:text-white cursor-pointer" />
+            <Link to={"https://www.facebook.com/"}>
+              <Facebook size={18} className="hover:text-white cursor-pointer" />
+            </Link>
+            <Link to={"https://x.com/"}>
+              <Twitter size={18} className="hover:text-white cursor-pointer" />
+            </Link>
+            <Link to={"https://www.linkedin.com/"}>
+              <Linkedin size={18} className="hover:text-white cursor-pointer" />
+            </Link>
+            <Link to={"https://www.instagram.com/?hl=en"}>
+              <Instagram
+                size={18}
+                className="hover:text-white cursor-pointer"
+              />
+            </Link>
+            <Link to={"https://github.com/ProgrammingHero1/"}>
+              <Github size={18} className="hover:text-white cursor-pointer" />
+            </Link>
+            <Link to={"https://www.youtube.com/"}>
+              <Youtube size={22} className="hover:text-white cursor-pointer" />
+            </Link>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 border-b border-gray-700 pb-12">
@@ -41,8 +56,12 @@ const Footer = () => {
               <Link to={"/"} className="hover:text-white">
                 Home
               </Link>
-              <Link className="hover:text-white">Apps</Link>
-              <Link className="hover:text-white">Installation</Link>
+              <Link to={"/apps"} className="hover:text-white">
+                Apps
+              </Link>
+              <Link to={"/installApp"} className="hover:text-white">
+                Installation
+              </Link>
               <Link className="hover:text-white">Contact</Link>
             </div>
           </div>
