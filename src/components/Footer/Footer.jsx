@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="flex items-center gap-2">
             <img className="h-10" src={logo} alt="Logo" />
             <div className="border-l border-gray-500 pl-3">
-              <h2 className="text-xl font-bold leading-none">HERO.IO</h2>
+              <h2 className="text-xl font-bold leading-none">AppLibrary</h2>
             </div>
           </div>
 

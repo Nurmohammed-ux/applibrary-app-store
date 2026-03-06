@@ -58,7 +58,7 @@ const Navbar = () => {
           className="btn btn-ghost text-xl font-bold bg-linear-to-r from-[#4f0de9] to-[#833ae9] bg-clip-text text-transparent"
         >
           <img className="h-10 p-1" src={logo} alt="Logo" />
-          HERO.IO
+          AppLibrary
         </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
