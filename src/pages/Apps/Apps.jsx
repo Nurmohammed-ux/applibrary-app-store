@@ -15,7 +15,7 @@ const Apps = () => {
   const isLoading = navigation.state === "loading";
 
   return (
-    <div className="bg-[#000000]/2 py-12 md:py-20 text-center px-4 md:px-10 lg:px-20 min-h-screen">
+    <div className="bg-[#000000]/2 py-12 md:py-20 text-center px-4 md:px-10 lg:px-20 min-h-100">
       <h2 className="text-3xl md:text-5xl font-bold mb-4">
         Our All Applications
       </h2>
