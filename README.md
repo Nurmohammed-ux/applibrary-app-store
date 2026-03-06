@@ -32,47 +32,47 @@ The application currently showcases the following apps:
 
 7. TaskMaster
 
-LearnLoop
+8. LearnLoop
 
-SnapNote
+9. SnapNote
 
-Foodie
+10. Foodie
 
-Budgetly
+11. Budgetly
 
-MedRemind
+12. MedRemind
 
-Travelio
+13. Travelio
 
-ScanIt
+14. ScanIt
 
-Languago
+15. Languago
 
-Clockify
+16. Clockify
 
-SecureIt
+17. SecureIt
 
-Podcastly
+18. Podcastly
 
-Eventify
+19. Eventify
 
-Readify
+20. Readify
 
-QuickPay
+21. QuickPay
 
-Artify
+22. Artify
 
-DriveCloud
+23. DriveCloud
 
-SleepWell
+24. SleepWell
 
-RouteX
+25. RouteX
 
-ScanQR
+26. ScanQR
 
-SkillUp
+27. SkillUp
 
-GameZone
+28. GameZone
 
 
 ---
@@ -97,12 +97,4 @@ GameZone
 * Responsive UI
 * Icon support using Lucide React
 
----
-
-## 🌐 Live Preview
-
-Coming Soon 🚀
-
-
-Nur Mohammed
 
