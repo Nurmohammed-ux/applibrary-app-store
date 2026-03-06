@@ -19,19 +19,18 @@ const AppDetails = () => {
   const { appId } = useParams();
   const apps = useLoaderData();
   const [isInstall, setIsInstall] = useState(false);
+
   const clickedApp = apps.find((app) => app.id === parseInt(appId));
 
   useEffect(() => {
-    const installedApp = getAppIdFromLS();
-    if (installedApp.includes(parseInt(appId))) {
+    const installedApps = getAppIdFromLS();
+    if (installedApps.includes(parseInt(appId))) {
       setIsInstall(true);
     }
   }, [appId]);
 
   if (!clickedApp) {
-    return (
-      <div className="p-20 text-center text-2xl font-bold">App Not Found</div>
-    );
+    throw new Error("App not found");
   }
 
   const {
@@ -48,22 +47,24 @@ const AppDetails = () => {
   } = clickedApp;
 
   const handleInstall = () => {
-    toast(`You successfully install : ${title}`);
+    toast.success(`Successfully installed: ${title}`);
     setIsInstall(true);
     addAppIdToLS(id);
   };
 
   return (
-    <div className="bg-[#000000]/2 py-12 md:py-20 px-4 md:px-10 lg:px-20 overflow-hidden min-h-screen">
+    <div className="bg-[#f8fafc] py-12 md:py-20 px-4 md:px-10 lg:px-20 overflow-hidden min-h-screen">
       <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center lg:items-start gap-10 pb-14">
         <img
-          className="h-48 w-48 md:h-64 md:w-64 lg:h-83 lg:w-83 rounded-sm object-cover"
+          className="h-48 w-48 md:h-64 md:w-64 lg:h-80 lg:w-80 rounded-2xl object-cover shadow-md"
           src={image}
           alt={title}
         />
         <div className="flex-1 text-center lg:text-left">
-          <div className="border-b border-gray-300 pb-5 lg:pb-8">
-            <h3 className="text-4xl md:text-5xl font-bold mb-2">{title}</h3>
+          <div className="border-b border-gray-200 pb-5 lg:pb-8">
+            <h3 className="text-4xl md:text-5xl font-bold mb-2 text-gray-900">
+              {title}
+            </h3>
             <p className="text-[#627382] text-lg">
               Developed by{" "}
               <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] font-semibold bg-clip-text text-transparent">
@@ -71,35 +72,24 @@ const AppDetails = () => {
               </span>
             </p>
           </div>
+
           <div className="pt-6 lg:pt-8 flex flex-wrap justify-center lg:justify-start gap-8 lg:gap-12 pb-10">
-            <div className="flex flex-col items-center lg:items-start">
-              <img className="h-8 mb-2" src={downloadImg} alt="Download" />
-              <p className="text-[#001931] text-sm font-medium">Downloads</p>
-              <h3 className="text-3xl md:text-4xl font-black">{downloads}</h3>
-            </div>
-            <div className="flex flex-col items-center lg:items-start">
-              <img className="h-8 mb-2" src={ratingImg} alt="Ratings" />
-              <p className="text-[#001931] text-sm font-medium">Avg Rating</p>
-              <h3 className="text-3xl md:text-4xl font-black">{ratingAvg}</h3>
-            </div>
-            <div className="flex flex-col items-center lg:items-start">
-              <img className="h-8 mb-2" src={reviewImg} alt="Review" />
-              <p className="text-[#001931] text-sm font-medium">Reviews</p>
-              <h3 className="text-3xl md:text-4xl font-black">{reviews}</h3>
-            </div>
+            <StatItem img={downloadImg} label="Downloads" value={downloads} />
+            <StatItem img={ratingImg} label="Avg Rating" value={ratingAvg} />
+            <StatItem img={reviewImg} label="Reviews" value={reviews} />
           </div>
 
           <button
             onClick={handleInstall}
             disabled={isInstall}
-            className={`btn px-10 py-4 border-none text-white font-bold rounded-sm shadow-lg transition-all active:scale-95 
+            className={`btn px-10 py-4 border-none text-white font-bold rounded-lg shadow-lg transition-all active:scale-95 
               ${isInstall ? "bg-gray-400 cursor-not-allowed" : "bg-[#00D390] hover:bg-[#00b97e]"}`}
           >
             {isInstall ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>
-      <hr className="border-gray-300" />
+      <hr className="border-gray-200" />
       <div className="w-full my-10">
         <h3 className="text-2xl font-bold mb-7.5">Ratings</h3>
         <div className="h-72 md:h-96 w-full">
@@ -149,13 +139,25 @@ const AppDetails = () => {
           </ResponsiveContainer>
         </div>
       </div>
-      <hr className="border-gray-300" />
-      <div>
-        <h3 className="text-2xl font-bold mt-6 mb-4">Description</h3>
-        <p className="text-[#627382]">{description}</p>
+      <hr className="border-gray-200" />
+      <div className="max-w-4xl">
+        <h3 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
+          Description
+        </h3>
+        <p className="text-[#627382] leading-relaxed text-lg whitespace-pre-line">
+          {description}
+        </p>
       </div>
     </div>
   );
 };
+
+const StatItem = ({ img, label, value }) => (
+  <div className="flex flex-col items-center lg:items-start">
+    <img className="h-8 mb-2" src={img} alt={label} />
+    <p className="text-[#001931] text-sm font-medium opacity-70">{label}</p>
+    <h3 className="text-3xl md:text-4xl font-black text-gray-900">{value}</h3>
+  </div>
+);
 
 export default AppDetails;

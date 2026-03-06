@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router";
 const Error = () => {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-col justify-center items-center mt-50">
+    <div className="bg-[#000000]/2 flex flex-col justify-center items-center mt-50">
       <img className="mb-4" src={errorImage} alt="404 Error" />
       <h3 className="text-5xl font-semibold mb-2">Oops, page not found!</h3>
       <p className="text-[#627382] mb-6">
