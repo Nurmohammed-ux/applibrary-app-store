@@ -11,10 +11,14 @@ const Apps = () => {
   const [isSearching, setIsSearching] = useState(false);
 
   useEffect(() => {
-    if (searchApp) {
+    if (searchApp.trim().length > 0) {
       setIsSearching(true);
-      const delay = setTimeout(() => setIsSearching(false), 500);
-      return () => clearTimeout(delay);
+      const timer = setTimeout(() => {
+        setIsSearching(false);
+      }, 600);
+      return () => clearTimeout(timer);
+    } else {
+      setIsSearching(false);
     }
   }, [searchApp]);
 
