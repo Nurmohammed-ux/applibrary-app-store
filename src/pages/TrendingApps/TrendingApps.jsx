@@ -1,13 +1,19 @@
 import React from "react";
 import { Link, useLoaderData } from "react-router";
 import TrendingApp from "../TrendingApp/TrendingApp";
+import { TrendingUp } from "lucide-react";
 
 const TrendingApps = () => {
   const trendingAppsData = useLoaderData();
   // console.log(trendingAppsData);
   return (
     <div className="py-12 md:py-20 text-center px-4 md:px-10 lg:px-20 overflow-hidden">
-      <h3 className="text-3xl md:text-5xl font-bold mb-4">Trending Apps</h3>
+      <h3 className="text-3xl flex items-center justify-center md:text-5xl font-bold mb-4">
+        Trending Apps
+        <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent p-1 ml-3">
+          <TrendingUp size={60} className="text-[#632EE3]" />
+        </span>
+      </h3>
       <p className="text-lg md:text-xl text-[#627382] mb-10 max-w-2xl mx-auto">
         Explore All Trending Apps on the Market developed by us
       </p>

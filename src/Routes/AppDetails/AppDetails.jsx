@@ -56,7 +56,7 @@ const AppDetails = () => {
     <div className="bg-[#f8fafc] py-12 md:py-20 px-4 md:px-10 lg:px-20 overflow-hidden min-h-screen">
       <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center lg:items-start gap-10 pb-14">
         <img
-          className="h-48 w-48 md:h-64 md:w-64 lg:h-80 lg:w-80 rounded-2xl object-cover shadow-md"
+          className="flex-1 h-48 w-48 md:h-64 md:w-64 lg:h-80 lg:w-80 shrink-0 min-w-48 md:min-w-[256px] lg:min-w-[320px] rounded-2xl object-cover shadow-md"
           src={image}
           alt={title}
         />
@@ -140,7 +140,7 @@ const AppDetails = () => {
         </div>
       </div>
       <hr className="border-gray-200" />
-      <div className="max-w-4xl">
+      <div>
         <h3 className="text-2xl font-bold mt-8 mb-4 text-gray-800">
           Description
         </h3>

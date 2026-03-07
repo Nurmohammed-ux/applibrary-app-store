@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { getAppIdFromLS } from "../../Utilities/addToLS";
 import { useLoaderData } from "react-router";
 import InstallApp from "../InstallApp/InstallApp";
-import { PackageOpen, ChevronDown } from "lucide-react";
+import { PackageOpen, ChevronDown, CalendarArrowDown } from "lucide-react";
 
 const InstallApps = () => {
   const appsData = useLoaderData();
@@ -53,8 +53,11 @@ const InstallApps = () => {
   //   console.log(storedAppIds, installApps);
   return (
     <div className="bg-[#000000]/2 py-12 md:py-20 text-center px-4 md:px-10 lg:px-20 min-h-100">
-      <h2 className="text-3xl md:text-5xl font-bold mb-4">
-        Your Installed Apps
+      <h2 className="text-3xl md:text-5xl flex justify-center items-center font-bold mb-4">
+        Your Installed Apps 
+        <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent p-1 ml-3">
+          <CalendarArrowDown size={42} className="text-black" />
+        </span>
       </h2>
       <p className="text-lg md:text-xl text-[#627382] mb-10 max-w-2xl mx-auto">
         Explore All Apps on the Market developed by us.

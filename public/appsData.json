@@ -1,10 +1,10 @@
 [
-  {
+   {
     "image": "https://i.ibb.co.com/RG0zT4dT/chatplus.png",
     "title": "ChatPlus",
     "companyName": "NovaSoft",
     "id": 1,
-    "description": "A fast and secure messaging app with group chats and media sharing.",
+    "description": "A fast and secure messaging app that allows users to connect with friends, family, and colleagues instantly. ChatPlus supports private chats, group conversations, media sharing, voice notes, and document transfers in a clean and easy-to-use interface. With strong privacy protection and reliable performance, it ensures smooth communication anytime and anywhere.",
     "size": 45,
     "reviews": "12.4k",
     "ratingAvg": 4.5,
@@ -22,7 +22,7 @@
     "title": "FitLife",
     "companyName": "Healthify",
     "id": 2,
-    "description": "Track workouts, calories, and daily fitness goals easily.",
+    "description": "A complete fitness companion that helps users track workouts, monitor daily activity, count calories burned, and maintain healthy habits. FitLife offers personalized fitness goals, progress tracking, and simple workout logs so users can stay motivated and maintain a balanced and active lifestyle.",
     "size": 62,
     "reviews": "9.8k",
     "ratingAvg": 4.2,
@@ -40,7 +40,7 @@
     "title": "Notely",
     "companyName": "Paperless Inc",
     "id": 3,
-    "description": "Simple note-taking app with cloud sync and reminders.",
+    "description": "A simple and powerful note-taking application that helps users organize ideas, tasks, and reminders efficiently. Notely offers cloud synchronization, quick editing tools, and reminder alerts so users can access their notes anytime across devices and stay organized throughout the day.",
     "size": 28,
     "reviews": "15.4k",
     "ratingAvg": 4.7,
@@ -58,7 +58,7 @@
     "title": "FinTrack",
     "companyName": "MoneyMind",
     "id": 4,
-    "description": "Manage expenses, budgets, and savings in one place.",
+    "description": "An easy-to-use financial management app that helps users track expenses, manage budgets, and monitor savings goals. FinTrack provides clear spending summaries and useful insights so users can better understand their financial habits and make smarter money decisions.",
     "size": 54,
     "reviews": "7.6k",
     "ratingAvg": 4.0,
@@ -76,7 +76,7 @@
     "title": "LearnHub",
     "companyName": "EduWorks",
     "id": 5,
-    "description": "Online learning platform with courses and quizzes.",
+    "description": "An interactive online learning platform offering a wide range of courses, quizzes, and study materials for learners of all levels. LearnHub helps students improve their skills, track learning progress, and gain knowledge through engaging lessons and educational resources.",
     "size": 75,
     "reviews": "18.4k",
     "ratingAvg": 4.6,
@@ -94,7 +94,7 @@
     "title": "Weatherly",
     "companyName": "SkyNetics",
     "id": 6,
-    "description": "Accurate weather forecasts with real-time alerts.",
+    "description": "A reliable weather forecasting app that provides accurate daily and weekly weather updates along with real-time alerts. Weatherly helps users plan their day with detailed forecasts, temperature information, and weather condition insights.",
     "size": 33,
     "reviews": "6.9k",
     "ratingAvg": 4.1,
@@ -112,7 +112,7 @@
     "title": "TaskFlow",
     "companyName": "Productive Labs",
     "id": 7,
-    "description": "Organize tasks, projects, and deadlines efficiently.",
+    "description": "A productivity tool designed to help users organize tasks, manage projects, and meet deadlines efficiently. TaskFlow allows users to create task lists, track progress, and stay focused on important work using a simple and structured interface.",
     "size": 48,
     "reviews": "11.2k",
     "ratingAvg": 4.4,
@@ -130,7 +130,7 @@
     "title": "MusicBox",
     "companyName": "SoundWave",
     "id": 8,
-    "description": "Stream and download your favorite music playlists.",
+    "description": "A music streaming application that allows users to listen to their favorite songs, explore playlists, and discover new artists. MusicBox provides smooth audio streaming, curated playlists, and a simple interface for an enjoyable listening experience.",
     "size": 85,
     "reviews": "20.5k",
     "ratingAvg": 4.3,
@@ -148,7 +148,7 @@
     "title": "SnapNote",
     "companyName": "QuickSoft",
     "id": 9,
-    "description": "Capture quick notes and ideas instantly.",
+    "description": "A quick and lightweight note-taking tool designed for capturing ideas instantly. SnapNote allows users to save short notes, reminders, and thoughts in seconds while keeping everything organized and easy to access.",
     "size": 22,
     "reviews": "6.3k",
     "ratingAvg": 4.1,
@@ -166,7 +166,7 @@
     "title": "Foodie",
     "companyName": "Taste Labs",
     "id": 10,
-    "description": "Discover and order food from nearby restaurants.",
+    "description": "A food discovery and ordering platform that connects users with nearby restaurants and delicious meals. Foodie allows users to browse menus, place orders quickly, and explore new dining options from local restaurants.",
     "size": 78,
     "reviews": "24.8k",
     "ratingAvg": 4.6,
@@ -184,7 +184,7 @@
     "title": "Budgetly",
     "companyName": "FinEdge",
     "id": 11,
-    "description": "Track income, expenses, and monthly budgets.",
+    "description": "Track income, expenses, and monthly budgets easily. Budgetly helps users manage personal finances by organizing transactions, monitoring spending patterns, and setting realistic budgeting goals.",
     "size": 41,
     "reviews": "8.1k",
     "ratingAvg": 4.0,
@@ -197,12 +197,13 @@
       { "name": "5 star", "count": 2330 }
     ]
   },
+
   {
     "image": "https://i.ibb.co.com/Zz1LLhwv/med-Reminder.png",
     "title": "MedRemind",
     "companyName": "CareTech",
     "id": 12,
-    "description": "Never miss a medicine dose again.",
+    "description": "A medication reminder app designed to help users take medicines on time. MedRemind provides alerts, schedules, and health tracking tools to maintain consistent medication routines.",
     "size": 30,
     "reviews": "5.4k",
     "ratingAvg": 4.3,
@@ -216,294 +217,291 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/kg5VmG61/travelio.jpg",
-    "title": "Travelio",
-    "companyName": "GoWorld",
-    "id": 13,
-    "description": "Plan trips, book hotels, and explore destinations.",
-    "size": 92,
-    "reviews": "31.6k",
-    "ratingAvg": 4.7,
-    "downloads": "6.8M",
-    "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 9500 },
-      { "name": "5 star", "count": 18700 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/tp6pPFDJ/scanit.png",
-    "title": "ScanIt",
-    "companyName": "DocuSmart",
-    "id": 14,
-    "description": "Scan documents using your phone camera.",
-    "size": 36,
-    "reviews": "9.9k",
-    "ratingAvg": 4.2,
-    "downloads": "1.1M",
-    "ratings": [
-      { "name": "1 star", "count": 390 },
-      { "name": "2 star", "count": 520 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 3800 },
-      { "name": "5 star", "count": 3090 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/d44PhwTt/langaguo.jpg",
-    "title": "Languago",
-    "companyName": "LinguaWorks",
-    "id": 15,
-    "description": "Learn new languages with daily practice.",
-    "size": 66,
-    "reviews": "22.1k",
-    "ratingAvg": 4.5,
-    "downloads": "3.9M",
-    "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 2400 },
-      { "name": "4 star", "count": 7100 },
-      { "name": "5 star", "count": 11100 }
-    ]
-  },
-
-  {
-    "image": "https://i.ibb.co.com/q3yR53h9/clockify.png",
-    "title": "Clockify",
-    "companyName": "TimeBox",
-    "id": 16,
-    "description": "Track work hours and productivity.",
-    "size": 29,
-    "reviews": "4.7k",
-    "ratingAvg": 4.0,
-    "downloads": "350k",
-    "ratings": [
-      { "name": "1 star", "count": 210 },
-      { "name": "2 star", "count": 330 },
-      { "name": "3 star", "count": 980 },
-      { "name": "4 star", "count": 1900 },
-      { "name": "5 star", "count": 1280 }
-    ]
-  },
-
-  {
-    "image": "https://i.ibb.co.com/7tfchNsr/secureit.png",
-    "title": "SecureIt",
-    "companyName": "CyberSafe",
-    "id": 17,
-    "description": "Password manager with encryption.",
-    "size": 40,
-    "reviews": "13.6k",
-    "ratingAvg": 4.6,
-    "downloads": "2.3M",
-    "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 420 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 4600 },
-      { "name": "5 star", "count": 6780 }
-    ]
-  },
-
-  {
-    "image": "https://i.ibb.co.com/TDbZP7w8/podcastly.png",
-    "title": "Podcastly",
-    "companyName": "AudioHub",
-    "id": 18,
-    "description": "Listen to trending podcasts worldwide.",
-    "size": 58,
-    "reviews": "17.2k",
-    "ratingAvg": 4.4,
-    "downloads": "2.9M",
-    "ratings": [
-      { "name": "1 star", "count": 620 },
-      { "name": "2 star", "count": 810 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 6200 },
-      { "name": "5 star", "count": 7470 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/zHPJ10YG/eventify.png",
-    "title": "Eventify",
-    "companyName": "PlanIt",
-    "id": 19,
-    "description": "Create, manage, and discover events easily.",
-    "size": 64,
-    "reviews": "7.8k",
-    "ratingAvg": 4.2,
-    "downloads": "620k",
-    "ratings": [
-      { "name": "1 star", "count": 260 },
-      { "name": "2 star", "count": 340 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 3100 },
-      { "name": "5 star", "count": 2600 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/KjZnBfTC/readify.png",
-    "title": "Readify",
-    "companyName": "BookNest",
-    "id": 20,
-    "description": "Read ebooks and audiobooks anytime.",
-    "size": 88,
-    "reviews": "19.3k",
-    "ratingAvg": 4.6,
-    "downloads": "3.6M",
-    "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 620 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 6900 },
-      { "name": "5 star", "count": 9200 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/VhkRbz8/quickpay.png",
-    "title": "QuickPay",
-    "companyName": "PayFlow",
-    "id": 21,
-    "description": "Fast and secure mobile payments.",
-    "size": 52,
-    "reviews": "14.5k",
-    "ratingAvg": 4.4,
-    "downloads": "2.7M",
-    "ratings": [
-      { "name": "1 star", "count": 480 },
-      { "name": "2 star", "count": 610 },
-      { "name": "3 star", "count": 1900 },
-      { "name": "4 star", "count": 5100 },
-      { "name": "5 star", "count": 6410 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/7J240NQH/artify.png",
-    "title": "Artify",
-    "companyName": "Creative Labs",
-    "id": 22,
-    "description": "Draw, paint, and create digital art.",
-    "size": 97,
-    "reviews": "11.9k",
-    "ratingAvg": 4.5,
-    "downloads": "1.9M",
-    "ratings": [
-      { "name": "1 star", "count": 320 },
-      { "name": "2 star", "count": 410 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 4200 },
-      { "name": "5 star", "count": 5370 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/Kxzb94rV/drivecloud.png",
-    "title": "DriveCloud",
-    "companyName": "Cloudify",
-    "id": 23,
-    "description": "Store and sync files securely in the cloud.",
-    "size": 110,
-    "reviews": "27.4k",
-    "ratingAvg": 4.7,
-    "downloads": "5.9M",
-    "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 720 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 8300 },
-      { "name": "5 star", "count": 15700 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/0RN6yMpS/sleepwell.png",
-    "title": "SleepWell",
-    "companyName": "MindCare",
-    "id": 24,
-    "description": "Improve sleep with guided sounds and tips.",
-    "size": 46,
-    "reviews": "10.6k",
-    "ratingAvg": 4.3,
-    "downloads": "1.4M",
-    "ratings": [
-      { "name": "1 star", "count": 410 },
-      { "name": "2 star", "count": 560 },
-      { "name": "3 star", "count": 1700 },
-      { "name": "4 star", "count": 3900 },
-      { "name": "5 star", "count": 4030 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/20L4TSkc/routex.png",
-    "title": "RouteX",
-    "companyName": "MapWorks",
-    "id": 25,
-    "description": "Find the fastest routes and traffic updates.",
-    "size": 70,
-    "reviews": "16.2k",
-    "ratingAvg": 4.1,
-    "downloads": "2.2M",
-    "ratings": [
-      { "name": "1 star", "count": 720 },
-      { "name": "2 star", "count": 980 },
-      { "name": "3 star", "count": 2600 },
-      { "name": "4 star", "count": 5400 },
-      { "name": "5 star", "count": 6500 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/TBPRxs2y/scanqr.webp",
-    "title": "ScanQR",
-    "companyName": "CodeSnap",
-    "id": 26,
-    "description": "Scan QR codes instantly and securely.",
-    "size": 18,
-    "reviews": "5.1k",
-    "ratingAvg": 4.0,
-    "downloads": "480k",
-    "ratings": [
-      { "name": "1 star", "count": 230 },
-      { "name": "2 star", "count": 310 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 1900 },
-      { "name": "5 star", "count": 1460 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/0jQhMtMw/skillup.png",
-    "title": "SkillUp",
-    "companyName": "CareerBoost",
-    "id": 27,
-    "description": "Learn job-ready skills with expert mentors.",
-    "size": 83,
-    "reviews": "21.7k",
-    "ratingAvg": 4.6,
-    "downloads": "3.8M",
-    "ratings": [
-      { "name": "1 star", "count": 520 },
-      { "name": "2 star", "count": 610 },
-      { "name": "3 star", "count": 1900 },
-      { "name": "4 star", "count": 7200 },
-      { "name": "5 star", "count": 10470 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/wFj27P5h/gamezone.webp",
-    "title": "GameZone",
-    "companyName": "PlayVerse",
-    "id": 28,
-    "description": "Play trending games and compete with friends.",
-    "size": 140,
-    "reviews": "33.9k",
-    "ratingAvg": 4.4,
-    "downloads": "7.4M",
-    "ratings": [
-      { "name": "1 star", "count": 1100 },
-      { "name": "2 star", "count": 1400 },
-      { "name": "3 star", "count": 3900 },
-      { "name": "4 star", "count": 10500 },
-      { "name": "5 star", "count": 17000 }
-    ]
-  }
+  "image": "https://i.ibb.co.com/kg5VmG61/travelio.jpg",
+  "title": "Travelio",
+  "companyName": "GoWorld",
+  "id": 13,
+  "description": "Travelio helps users plan trips, book hotels, and explore exciting destinations around the world. The app provides travel recommendations, itinerary planning tools, and useful guides to make travel preparation simple and enjoyable for both casual travelers and adventure seekers.",
+  "size": 92,
+  "reviews": "31.6k",
+  "ratingAvg": 4.7,
+  "downloads": "6.8M",
+  "ratings": [
+    { "name": "1 star", "count": 600 },
+    { "name": "2 star", "count": 700 },
+    { "name": "3 star", "count": 2100 },
+    { "name": "4 star", "count": 9500 },
+    { "name": "5 star", "count": 18700 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/tp6pPFDJ/scanit.png",
+  "title": "ScanIt",
+  "companyName": "DocuSmart",
+  "id": 14,
+  "description": "ScanIt allows users to scan documents quickly using their smartphone camera. The app automatically detects edges, enhances clarity, and converts papers, receipts, and notes into clean digital files that can be stored, shared, or organized easily.",
+  "size": 36,
+  "reviews": "9.9k",
+  "ratingAvg": 4.2,
+  "downloads": "1.1M",
+  "ratings": [
+    { "name": "1 star", "count": 390 },
+    { "name": "2 star", "count": 520 },
+    { "name": "3 star", "count": 2100 },
+    { "name": "4 star", "count": 3800 },
+    { "name": "5 star", "count": 3090 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/d44PhwTt/langaguo.jpg",
+  "title": "Languago",
+  "companyName": "LinguaWorks",
+  "id": 15,
+  "description": "Languago helps users learn new languages through interactive lessons, vocabulary exercises, and pronunciation practice. The app provides daily learning tasks and progress tracking so users can gradually improve their communication skills.",
+  "size": 66,
+  "reviews": "22.1k",
+  "ratingAvg": 4.5,
+  "downloads": "3.9M",
+  "ratings": [
+    { "name": "1 star", "count": 700 },
+    { "name": "2 star", "count": 800 },
+    { "name": "3 star", "count": 2400 },
+    { "name": "4 star", "count": 7100 },
+    { "name": "5 star", "count": 11100 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/q3yR53h9/clockify.png",
+  "title": "Clockify",
+  "companyName": "TimeBox",
+  "id": 16,
+  "description": "Clockify helps users track work hours, monitor productivity, and manage their daily schedules efficiently. It provides simple time logging tools and reports that help freelancers, students, and professionals stay organized.",
+  "size": 29,
+  "reviews": "4.7k",
+  "ratingAvg": 4.0,
+  "downloads": "350k",
+  "ratings": [
+    { "name": "1 star", "count": 210 },
+    { "name": "2 star", "count": 330 },
+    { "name": "3 star", "count": 980 },
+    { "name": "4 star", "count": 1900 },
+    { "name": "5 star", "count": 1280 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/7tfchNsr/secureit.png",
+  "title": "SecureIt",
+  "companyName": "CyberSafe",
+  "id": 17,
+  "description": "SecureIt is a reliable password manager that stores and protects user credentials using advanced encryption. It helps users generate strong passwords and securely access their accounts across different devices.",
+  "size": 40,
+  "reviews": "13.6k",
+  "ratingAvg": 4.6,
+  "downloads": "2.3M",
+  "ratings": [
+    { "name": "1 star", "count": 300 },
+    { "name": "2 star", "count": 420 },
+    { "name": "3 star", "count": 1500 },
+    { "name": "4 star", "count": 4600 },
+    { "name": "5 star", "count": 6780 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/TDbZP7w8/podcastly.png",
+  "title": "Podcastly",
+  "companyName": "AudioHub",
+  "id": 18,
+  "description": "Podcastly allows users to explore trending podcasts from around the world. With smooth audio streaming and personalized recommendations, listeners can discover interesting discussions on technology, education, and entertainment.",
+  "size": 58,
+  "reviews": "17.2k",
+  "ratingAvg": 4.4,
+  "downloads": "2.9M",
+  "ratings": [
+    { "name": "1 star", "count": 620 },
+    { "name": "2 star", "count": 810 },
+    { "name": "3 star", "count": 2100 },
+    { "name": "4 star", "count": 6200 },
+    { "name": "5 star", "count": 7470 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/zHPJ10YG/eventify.png",
+  "title": "Eventify",
+  "companyName": "PlanIt",
+  "id": 19,
+  "description": "Eventify helps users create, manage, and discover events easily. The app allows people to organize gatherings, share invitations, and explore upcoming activities in their local community.",
+  "size": 64,
+  "reviews": "7.8k",
+  "ratingAvg": 4.2,
+  "downloads": "620k",
+  "ratings": [
+    { "name": "1 star", "count": 260 },
+    { "name": "2 star", "count": 340 },
+    { "name": "3 star", "count": 1500 },
+    { "name": "4 star", "count": 3100 },
+    { "name": "5 star", "count": 2600 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/KjZnBfTC/readify.png",
+  "title": "Readify",
+  "companyName": "BookNest",
+  "id": 20,
+  "description": "Readify offers a comfortable digital reading experience where users can explore ebooks and audiobooks anytime. The platform includes different genres, bookmarking features, and adjustable reading settings.",
+  "size": 88,
+  "reviews": "19.3k",
+  "ratingAvg": 4.6,
+  "downloads": "3.6M",
+  "ratings": [
+    { "name": "1 star", "count": 500 },
+    { "name": "2 star", "count": 620 },
+    { "name": "3 star", "count": 2100 },
+    { "name": "4 star", "count": 6900 },
+    { "name": "5 star", "count": 9200 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/VhkRbz8/quickpay.png",
+  "title": "QuickPay",
+  "companyName": "PayFlow",
+  "id": 21,
+  "description": "QuickPay enables fast and secure mobile payments. Users can send and receive money, track transactions, and manage digital payments easily with a safe and user-friendly interface.",
+  "size": 52,
+  "reviews": "14.5k",
+  "ratingAvg": 4.4,
+  "downloads": "2.7M",
+  "ratings": [
+    { "name": "1 star", "count": 480 },
+    { "name": "2 star", "count": 610 },
+    { "name": "3 star", "count": 1900 },
+    { "name": "4 star", "count": 5100 },
+    { "name": "5 star", "count": 6410 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/7J240NQH/artify.png",
+  "title": "Artify",
+  "companyName": "Creative Labs",
+  "id": 22,
+  "description": "Artify is a creative digital drawing application that allows users to paint, sketch, and design artwork using a variety of brushes and colors. It supports both beginners and professional artists.",
+  "size": 97,
+  "reviews": "11.9k",
+  "ratingAvg": 4.5,
+  "downloads": "1.9M",
+  "ratings": [
+    { "name": "1 star", "count": 320 },
+    { "name": "2 star", "count": 410 },
+    { "name": "3 star", "count": 1600 },
+    { "name": "4 star", "count": 4200 },
+    { "name": "5 star", "count": 5370 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/Kxzb94rV/drivecloud.png",
+  "title": "DriveCloud",
+  "companyName": "Cloudify",
+  "id": 23,
+  "description": "DriveCloud provides secure cloud storage for documents, photos, and files. Users can upload, organize, and access their data from any device while keeping everything safely backed up online.",
+  "size": 110,
+  "reviews": "27.4k",
+  "ratingAvg": 4.7,
+  "downloads": "5.9M",
+  "ratings": [
+    { "name": "1 star", "count": 600 },
+    { "name": "2 star", "count": 720 },
+    { "name": "3 star", "count": 2100 },
+    { "name": "4 star", "count": 8300 },
+    { "name": "5 star", "count": 15700 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/0RN6yMpS/sleepwell.png",
+  "title": "SleepWell",
+  "companyName": "MindCare",
+  "id": 24,
+  "description": "SleepWell helps users improve sleep quality through relaxing sounds, guided sessions, and calming techniques that reduce stress and promote better nighttime routines.",
+  "size": 46,
+  "reviews": "10.6k",
+  "ratingAvg": 4.3,
+  "downloads": "1.4M",
+  "ratings": [
+    { "name": "1 star", "count": 410 },
+    { "name": "2 star", "count": 560 },
+    { "name": "3 star", "count": 1700 },
+    { "name": "4 star", "count": 3900 },
+    { "name": "5 star", "count": 4030 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/20L4TSkc/routex.png",
+  "title": "RouteX",
+  "companyName": "MapWorks",
+  "id": 25,
+  "description": "RouteX helps drivers find the fastest routes and receive real-time traffic updates. The navigation system ensures users reach their destination efficiently while avoiding traffic delays.",
+  "size": 70,
+  "reviews": "16.2k",
+  "ratingAvg": 4.1,
+  "downloads": "2.2M",
+  "ratings": [
+    { "name": "1 star", "count": 720 },
+    { "name": "2 star", "count": 980 },
+    { "name": "3 star", "count": 2600 },
+    { "name": "4 star", "count": 5400 },
+    { "name": "5 star", "count": 6500 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/TBPRxs2y/scanqr.webp",
+  "title": "ScanQR",
+  "companyName": "CodeSnap",
+  "id": 26,
+  "description": "ScanQR allows users to scan QR codes quickly and safely. The app instantly reads codes for websites, payments, and information sharing while maintaining a smooth scanning experience.",
+  "size": 18,
+  "reviews": "5.1k",
+  "ratingAvg": 4.0,
+  "downloads": "480k",
+  "ratings": [
+    { "name": "1 star", "count": 230 },
+    { "name": "2 star", "count": 310 },
+    { "name": "3 star", "count": 1200 },
+    { "name": "4 star", "count": 1900 },
+    { "name": "5 star", "count": 1460 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/0jQhMtMw/skillup.png",
+  "title": "SkillUp",
+  "companyName": "CareerBoost",
+  "id": 27,
+  "description": "SkillUp provides courses and mentorship programs designed to help users learn job-ready skills and improve their career opportunities through practical and structured learning.",
+  "size": 83,
+  "reviews": "21.7k",
+  "ratingAvg": 4.6,
+  "downloads": "3.8M",
+  "ratings": [
+    { "name": "1 star", "count": 520 },
+    { "name": "2 star", "count": 610 },
+    { "name": "3 star", "count": 1900 },
+    { "name": "4 star", "count": 7200 },
+    { "name": "5 star", "count": 10470 }
+  ]
+},
+{
+  "image": "https://i.ibb.co.com/wFj27P5h/gamezone.webp",
+  "title": "GameZone",
+  "companyName": "PlayVerse",
+  "id": 28,
+  "description": "GameZone is a gaming platform where users can explore trending games, challenge friends, and enjoy competitive gameplay. It offers a fun environment with multiple game options and social features.",
+  "size": 140,
+  "reviews": "33.9k",
+  "ratingAvg": 4.4,
+  "downloads": "7.4M",
+  "ratings": [
+    { "name": "1 star", "count": 1100 },
+    { "name": "2 star", "count": 1400 },
+    { "name": "3 star", "count": 3900 },
+    { "name": "4 star", "count": 10500 },
+    { "name": "5 star", "count": 17000 }
+  ]
+}
 ]

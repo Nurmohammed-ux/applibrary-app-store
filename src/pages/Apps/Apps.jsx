@@ -3,6 +3,7 @@ import { Search } from "lucide-react";
 import { useLoaderData, useNavigation } from "react-router";
 import TrendingApp from "../TrendingApp/TrendingApp";
 import logo from "../../assets/logo.png";
+import vsImg from "../../assets/icons8-visual-studio-code-48.png";
 
 const Apps = () => {
   const appsData = useLoaderData() || [];
@@ -30,8 +31,9 @@ const Apps = () => {
 
   return (
     <div className="bg-[#f8fafc] py-12 md:py-20 text-center px-4 md:px-10 lg:px-20 min-h-screen">
-      <h2 className="text-3xl md:text-5xl font-bold mb-4">
-        Our All Applications
+      <h2 className="text-3xl md:text-5xl flex justify-center items-center font-bold mb-4">
+        Our All Applications{" "}
+        <img className="h-10 mt-2 ml-3" src={vsImg} alt="Icon" />
       </h2>
       <p className="text-lg md:text-xl text-[#627382] mb-10 max-w-2xl mx-auto">
         Explore All Apps on the Market developed by us. We code for Millions
