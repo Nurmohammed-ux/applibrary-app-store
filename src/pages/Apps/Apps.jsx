@@ -1,53 +1,63 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Search } from "lucide-react";
 import { useLoaderData, useNavigation } from "react-router";
 import TrendingApp from "../TrendingApp/TrendingApp";
+import logo from "../../assets/logo.png";
 
 const Apps = () => {
   const appsData = useLoaderData() || [];
   const navigation = useNavigation();
   const [searchApp, setSearchApp] = useState("");
+  const [isSearching, setIsSearching] = useState(false);
+
+  useEffect(() => {
+    if (searchApp) {
+      setIsSearching(true);
+      const delay = setTimeout(() => setIsSearching(false), 500);
+      return () => clearTimeout(delay);
+    }
+  }, [searchApp]);
 
   const filteredApps = appsData.filter((app) =>
     app.title.toLowerCase().includes(searchApp.toLowerCase()),
   );
 
-  const isLoading = navigation.state === "loading";
+  const isNavigating = navigation.state === "loading";
 
   return (
-    <div className="bg-[#000000]/2 py-12 md:py-20 text-center px-4 md:px-10 lg:px-20 min-h-100">
+    <div className="bg-[#f8fafc] py-12 md:py-20 text-center px-4 md:px-10 lg:px-20 min-h-screen">
       <h2 className="text-3xl md:text-5xl font-bold mb-4">
         Our All Applications
       </h2>
       <p className="text-lg md:text-xl text-[#627382] mb-10 max-w-2xl mx-auto">
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
-      <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-        <h4 className="text-xl md:text-2xl font-semibold text-[#131313]">
-          ({isLoading ? "..." : filteredApps.length}/{appsData.length}) Apps
-          Found
+      <div className="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto mb-10">
+        <h4 className="text-xl md:text-2xl font-semibold">
+          {filteredApps.length} Apps Found
         </h4>
         <div className="relative w-full md:w-96">
-          <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-            <Search className="h-5 w-5 text-gray-400" />
-          </div>
+          <Search className="absolute left-3 top-3.5 h-5 w-5 text-gray-400" />
           <input
-            className="bg-white pl-10 pr-4 py-3 rounded-sm w-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#632EE3]"
+            className="bg-white pl-10 pr-4 py-3 rounded-lg w-full border border-gray-200 focus:ring-2 focus:ring-[#632EE3] outline-none"
             type="text"
-            value={searchApp}
+            placeholder="Search Apps..."
             onChange={(e) => setSearchApp(e.target.value)}
-            placeholder="Search Apps"
           />
         </div>
       </div>
-
-      <div className="mt-10">
-        {isLoading ? (
-          <div className="flex flex-col items-center justify-center py-20">
-            <span className="loading loading-spinner loading-lg text-[#632EE3]"></span>
-            <p className="mt-4 text-gray-500 animate-pulse">
-              Fetching latest apps...
-            </p>
+      <div className="mt-10 max-w-7xl mx-auto">
+        {isNavigating || isSearching ? (
+          <div className="flex flex-col items-center justify-center pt-12">
+            <div className="flex items-center text-5xl md:text-7xl font-black text-[#131313] loading-text">
+              <span>L</span>
+              <img
+                src={logo}
+                alt="Loading"
+                className="h-10 w-10 md:h-18 md:w-18 mx-1 animate-spin-slow object-contain"
+              />
+              <span>ADING</span>
+            </div>
           </div>
         ) : filteredApps.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
