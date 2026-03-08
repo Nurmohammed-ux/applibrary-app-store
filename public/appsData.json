@@ -1,10 +1,10 @@
 [
-   {
+  {
     "image": "https://i.ibb.co.com/RG0zT4dT/chatplus.png",
     "title": "ChatPlus",
     "companyName": "NovaSoft",
     "id": 1,
-    "description": "A fast and secure messaging app that allows users to connect with friends, family, and colleagues instantly. ChatPlus supports private chats, group conversations, media sharing, voice notes, and document transfers in a clean and easy-to-use interface. With strong privacy protection and reliable performance, it ensures smooth communication anytime and anywhere.",
+    "description": "FitLife is a complete fitness companion designed to help users maintain a healthy and active lifestyle. The app allows users to track daily workouts, monitor physical activity, and measure progress toward personal fitness goals. Users can record exercises, count calories burned, and track steps throughout the day. FitLife also provides useful insights and statistics to help users understand their health patterns. The interface is simple and motivating, making it easy for beginners and experienced athletes alike. Users can create personalized workout plans and track their improvement over time. The app encourages consistency by helping users build healthy routines. Notifications and reminders help users stay committed to their goals. FitLife focuses on improving both physical health and daily activity levels. It is an excellent tool for anyone looking to stay fit and motivated.",
     "size": 45,
     "reviews": "12.4k",
     "ratingAvg": 4.5,
@@ -22,7 +22,7 @@
     "title": "FitLife",
     "companyName": "Healthify",
     "id": 2,
-    "description": "A complete fitness companion that helps users track workouts, monitor daily activity, count calories burned, and maintain healthy habits. FitLife offers personalized fitness goals, progress tracking, and simple workout logs so users can stay motivated and maintain a balanced and active lifestyle.",
+    "description": "FitLife is a complete fitness companion designed to help users maintain a healthy and active lifestyle. The app allows users to track daily workouts, monitor physical activity, and measure progress toward personal fitness goals. Users can record exercises, count calories burned, and track steps throughout the day. FitLife also provides useful insights and statistics to help users understand their health patterns. The interface is simple and motivating, making it easy for beginners and experienced athletes alike. Users can create personalized workout plans and track their improvement over time. The app encourages consistency by helping users build healthy routines. Notifications and reminders help users stay committed to their goals. FitLife focuses on improving both physical health and daily activity levels. It is an excellent tool for anyone looking to stay fit and motivated.",
     "size": 62,
     "reviews": "9.8k",
     "ratingAvg": 4.2,
@@ -40,7 +40,7 @@
     "title": "Notely",
     "companyName": "Paperless Inc",
     "id": 3,
-    "description": "A simple and powerful note-taking application that helps users organize ideas, tasks, and reminders efficiently. Notely offers cloud synchronization, quick editing tools, and reminder alerts so users can access their notes anytime across devices and stay organized throughout the day.",
+    "description": "Notely is a simple yet powerful note-taking application designed to help users organize ideas, tasks, and reminders efficiently. The app allows users to quickly create, edit, and manage notes in a clean and distraction-free environment. Notes can be categorized and organized so important information is always easy to find. Notely also supports cloud synchronization which allows users to access their notes from multiple devices. Users can add reminders to important notes so they never forget tasks or deadlines. The interface is minimal and easy to use for students, professionals, and everyday users. Searching for notes is fast and convenient. The app helps improve productivity by keeping ideas and information organized. Users can quickly capture thoughts anytime during the day. Notely is a reliable solution for managing notes and staying organized.",
     "size": 28,
     "reviews": "15.4k",
     "ratingAvg": 4.7,
@@ -58,7 +58,7 @@
     "title": "FinTrack",
     "companyName": "MoneyMind",
     "id": 4,
-    "description": "An easy-to-use financial management app that helps users track expenses, manage budgets, and monitor savings goals. FinTrack provides clear spending summaries and useful insights so users can better understand their financial habits and make smarter money decisions.",
+    "description": "FinTrack is a smart financial management application designed to help users control their money more effectively. The app allows users to track daily expenses, manage budgets, and monitor personal savings goals. Users can record income and spending activities to better understand their financial habits. FinTrack provides clear summaries and visual insights that make financial information easier to understand. The app helps users identify unnecessary expenses and improve budgeting decisions. Its clean and simple interface ensures that managing finances is not complicated. Users can categorize transactions and review spending reports anytime. FinTrack also helps users plan future financial goals more efficiently. It promotes responsible financial habits and better money management. Overall, FinTrack is a useful tool for keeping personal finances organized.",
     "size": 54,
     "reviews": "7.6k",
     "ratingAvg": 4.0,
@@ -76,7 +76,7 @@
     "title": "LearnHub",
     "companyName": "EduWorks",
     "id": 5,
-    "description": "An interactive online learning platform offering a wide range of courses, quizzes, and study materials for learners of all levels. LearnHub helps students improve their skills, track learning progress, and gain knowledge through engaging lessons and educational resources.",
+    "description": "LearnHub is an interactive online learning platform created to support students and lifelong learners. The app provides access to a variety of courses, quizzes, and educational resources across multiple subjects. Users can follow structured lessons designed to improve knowledge and skills gradually. LearnHub includes progress tracking tools that help learners monitor their development. The platform encourages active learning through engaging exercises and educational content. Students can review study materials and test their understanding through quizzes. The interface is simple and designed for easy navigation during study sessions. LearnHub helps learners stay motivated by showing their improvement over time. It supports both self-paced learning and regular practice. This app is an excellent resource for anyone looking to expand knowledge and improve skills.",
     "size": 75,
     "reviews": "18.4k",
     "ratingAvg": 4.6,
@@ -94,7 +94,7 @@
     "title": "Weatherly",
     "companyName": "SkyNetics",
     "id": 6,
-    "description": "A reliable weather forecasting app that provides accurate daily and weekly weather updates along with real-time alerts. Weatherly helps users plan their day with detailed forecasts, temperature information, and weather condition insights.",
+    "description": "Weatherly is a reliable weather forecasting application designed to provide accurate daily updates. Users can quickly check current temperature and weather conditions anytime. The app also provides hourly and weekly forecasts for better planning. Weather alerts notify users about storms and important climate changes. Weatherly includes useful details such as humidity, wind speed, and precipitation. The interface is simple and easy to understand for all users. Location detection automatically shows weather information for your area. Users can also add multiple cities to monitor different locations. The app updates data regularly to maintain accuracy. Weatherly helps users stay prepared for changing weather conditions.",
     "size": 33,
     "reviews": "6.9k",
     "ratingAvg": 4.1,
@@ -112,7 +112,7 @@
     "title": "TaskFlow",
     "companyName": "Productive Labs",
     "id": 7,
-    "description": "A productivity tool designed to help users organize tasks, manage projects, and meet deadlines efficiently. TaskFlow allows users to create task lists, track progress, and stay focused on important work using a simple and structured interface.",
+    "description": "TaskFlow is a productivity application created to help users organize their work efficiently. Users can create tasks and manage daily responsibilities easily. The app supports task lists, reminders, and progress tracking tools. It helps users focus on priorities and meet important deadlines. TaskFlow also allows project organization for better workflow management. The interface is simple and designed for productivity. Notifications help users stay on schedule. Tasks can be categorized for easier tracking and completion. The app works smoothly across devices for convenience. TaskFlow is a helpful tool for improving time management and productivity.",
     "size": 48,
     "reviews": "11.2k",
     "ratingAvg": 4.4,
@@ -130,7 +130,7 @@
     "title": "MusicBox",
     "companyName": "SoundWave",
     "id": 8,
-    "description": "A music streaming application that allows users to listen to their favorite songs, explore playlists, and discover new artists. MusicBox provides smooth audio streaming, curated playlists, and a simple interface for an enjoyable listening experience.",
+    "description": "MusicBox is a music streaming platform designed for music lovers. Users can listen to their favorite songs anytime and anywhere. The app offers playlists from different genres and artists. Personalized recommendations help users discover new music easily. MusicBox provides smooth streaming with high quality audio. Users can create their own playlists for different moods. The interface is modern and easy to navigate. Songs load quickly even on slower networks. Offline listening features allow users to enjoy music without internet. MusicBox makes music discovery and listening simple and enjoyable.",
     "size": 85,
     "reviews": "20.5k",
     "ratingAvg": 4.3,
@@ -148,7 +148,7 @@
     "title": "SnapNote",
     "companyName": "QuickSoft",
     "id": 9,
-    "description": "A quick and lightweight note-taking tool designed for capturing ideas instantly. SnapNote allows users to save short notes, reminders, and thoughts in seconds while keeping everything organized and easy to access.",
+    "description": "SnapNote is a lightweight note capturing application built for speed and simplicity. Users can quickly write short notes and reminders. The app focuses on fast idea capture without complicated features. Notes can be saved instantly and organized easily. The interface is clean and minimal for distraction-free use. SnapNote is perfect for capturing thoughts on the go. Users can search their notes quickly when needed. The app runs smoothly even on low storage devices. It is ideal for students and busy professionals. SnapNote makes quick note-taking effortless.",
     "size": 22,
     "reviews": "6.3k",
     "ratingAvg": 4.1,
@@ -161,12 +161,13 @@
       { "name": "5 star", "count": 1970 }
     ]
   },
+
   {
     "image": "https://i.ibb.co.com/4ZD4xj5d/foodie.png",
     "title": "Foodie",
     "companyName": "Taste Labs",
     "id": 10,
-    "description": "A food discovery and ordering platform that connects users with nearby restaurants and delicious meals. Foodie allows users to browse menus, place orders quickly, and explore new dining options from local restaurants.",
+    "description": "Foodie is a food discovery and ordering platform designed for convenient dining experiences. Users can browse menus from nearby restaurants easily. The app helps people explore new dishes and popular food spots. Ordering meals is quick and simple through the interface. Foodie provides restaurant reviews and ratings for better choices. The platform also highlights trending dishes and local favorites. Notifications keep users informed about deals and offers. The ordering system is secure and reliable. Food delivery tracking helps users monitor order status. Foodie makes discovering and enjoying meals easier.",
     "size": 78,
     "reviews": "24.8k",
     "ratingAvg": 4.6,
@@ -184,7 +185,7 @@
     "title": "Budgetly",
     "companyName": "FinEdge",
     "id": 11,
-    "description": "Track income, expenses, and monthly budgets easily. Budgetly helps users manage personal finances by organizing transactions, monitoring spending patterns, and setting realistic budgeting goals.",
+    "description": "Budgetly is a personal finance management application designed to help users control their spending habits. The app allows users to record daily income and expenses easily. Users can organize transactions into categories for better financial tracking. Budgetly provides clear summaries that help people understand where their money goes. The interface is simple and easy to use for beginners. Monthly budgeting tools help users set financial limits and goals. Visual charts make spending patterns easier to understand. The app encourages smarter financial decisions through simple insights. Secure data storage keeps personal financial information protected. Budgetly is a helpful tool for building better money management habits.",
     "size": 41,
     "reviews": "8.1k",
     "ratingAvg": 4.0,
@@ -197,13 +198,12 @@
       { "name": "5 star", "count": 2330 }
     ]
   },
-
   {
     "image": "https://i.ibb.co.com/Zz1LLhwv/med-Reminder.png",
     "title": "MedRemind",
     "companyName": "CareTech",
     "id": 12,
-    "description": "A medication reminder app designed to help users take medicines on time. MedRemind provides alerts, schedules, and health tracking tools to maintain consistent medication routines.",
+    "description": "MedRemind is a health reminder application designed to help users manage their medication schedules. The app sends timely alerts so users never miss important doses. Users can easily create medication plans and set daily reminders. The interface is simple and designed for easy navigation. MedRemind also tracks medication history for better health management. Caregivers and family members can help monitor schedules when needed. The app provides helpful notifications throughout the day. Medication lists can be updated anytime with new prescriptions. Data is stored securely to protect personal health information. MedRemind helps users maintain a consistent and healthy medication routine.",
     "size": 30,
     "reviews": "5.4k",
     "ratingAvg": 4.3,
@@ -217,291 +217,291 @@
     ]
   },
   {
-  "image": "https://i.ibb.co.com/kg5VmG61/travelio.jpg",
-  "title": "Travelio",
-  "companyName": "GoWorld",
-  "id": 13,
-  "description": "Travelio helps users plan trips, book hotels, and explore exciting destinations around the world. The app provides travel recommendations, itinerary planning tools, and useful guides to make travel preparation simple and enjoyable for both casual travelers and adventure seekers.",
-  "size": 92,
-  "reviews": "31.6k",
-  "ratingAvg": 4.7,
-  "downloads": "6.8M",
-  "ratings": [
-    { "name": "1 star", "count": 600 },
-    { "name": "2 star", "count": 700 },
-    { "name": "3 star", "count": 2100 },
-    { "name": "4 star", "count": 9500 },
-    { "name": "5 star", "count": 18700 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/tp6pPFDJ/scanit.png",
-  "title": "ScanIt",
-  "companyName": "DocuSmart",
-  "id": 14,
-  "description": "ScanIt allows users to scan documents quickly using their smartphone camera. The app automatically detects edges, enhances clarity, and converts papers, receipts, and notes into clean digital files that can be stored, shared, or organized easily.",
-  "size": 36,
-  "reviews": "9.9k",
-  "ratingAvg": 4.2,
-  "downloads": "1.1M",
-  "ratings": [
-    { "name": "1 star", "count": 390 },
-    { "name": "2 star", "count": 520 },
-    { "name": "3 star", "count": 2100 },
-    { "name": "4 star", "count": 3800 },
-    { "name": "5 star", "count": 3090 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/d44PhwTt/langaguo.jpg",
-  "title": "Languago",
-  "companyName": "LinguaWorks",
-  "id": 15,
-  "description": "Languago helps users learn new languages through interactive lessons, vocabulary exercises, and pronunciation practice. The app provides daily learning tasks and progress tracking so users can gradually improve their communication skills.",
-  "size": 66,
-  "reviews": "22.1k",
-  "ratingAvg": 4.5,
-  "downloads": "3.9M",
-  "ratings": [
-    { "name": "1 star", "count": 700 },
-    { "name": "2 star", "count": 800 },
-    { "name": "3 star", "count": 2400 },
-    { "name": "4 star", "count": 7100 },
-    { "name": "5 star", "count": 11100 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/q3yR53h9/clockify.png",
-  "title": "Clockify",
-  "companyName": "TimeBox",
-  "id": 16,
-  "description": "Clockify helps users track work hours, monitor productivity, and manage their daily schedules efficiently. It provides simple time logging tools and reports that help freelancers, students, and professionals stay organized.",
-  "size": 29,
-  "reviews": "4.7k",
-  "ratingAvg": 4.0,
-  "downloads": "350k",
-  "ratings": [
-    { "name": "1 star", "count": 210 },
-    { "name": "2 star", "count": 330 },
-    { "name": "3 star", "count": 980 },
-    { "name": "4 star", "count": 1900 },
-    { "name": "5 star", "count": 1280 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/7tfchNsr/secureit.png",
-  "title": "SecureIt",
-  "companyName": "CyberSafe",
-  "id": 17,
-  "description": "SecureIt is a reliable password manager that stores and protects user credentials using advanced encryption. It helps users generate strong passwords and securely access their accounts across different devices.",
-  "size": 40,
-  "reviews": "13.6k",
-  "ratingAvg": 4.6,
-  "downloads": "2.3M",
-  "ratings": [
-    { "name": "1 star", "count": 300 },
-    { "name": "2 star", "count": 420 },
-    { "name": "3 star", "count": 1500 },
-    { "name": "4 star", "count": 4600 },
-    { "name": "5 star", "count": 6780 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/TDbZP7w8/podcastly.png",
-  "title": "Podcastly",
-  "companyName": "AudioHub",
-  "id": 18,
-  "description": "Podcastly allows users to explore trending podcasts from around the world. With smooth audio streaming and personalized recommendations, listeners can discover interesting discussions on technology, education, and entertainment.",
-  "size": 58,
-  "reviews": "17.2k",
-  "ratingAvg": 4.4,
-  "downloads": "2.9M",
-  "ratings": [
-    { "name": "1 star", "count": 620 },
-    { "name": "2 star", "count": 810 },
-    { "name": "3 star", "count": 2100 },
-    { "name": "4 star", "count": 6200 },
-    { "name": "5 star", "count": 7470 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/zHPJ10YG/eventify.png",
-  "title": "Eventify",
-  "companyName": "PlanIt",
-  "id": 19,
-  "description": "Eventify helps users create, manage, and discover events easily. The app allows people to organize gatherings, share invitations, and explore upcoming activities in their local community.",
-  "size": 64,
-  "reviews": "7.8k",
-  "ratingAvg": 4.2,
-  "downloads": "620k",
-  "ratings": [
-    { "name": "1 star", "count": 260 },
-    { "name": "2 star", "count": 340 },
-    { "name": "3 star", "count": 1500 },
-    { "name": "4 star", "count": 3100 },
-    { "name": "5 star", "count": 2600 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/KjZnBfTC/readify.png",
-  "title": "Readify",
-  "companyName": "BookNest",
-  "id": 20,
-  "description": "Readify offers a comfortable digital reading experience where users can explore ebooks and audiobooks anytime. The platform includes different genres, bookmarking features, and adjustable reading settings.",
-  "size": 88,
-  "reviews": "19.3k",
-  "ratingAvg": 4.6,
-  "downloads": "3.6M",
-  "ratings": [
-    { "name": "1 star", "count": 500 },
-    { "name": "2 star", "count": 620 },
-    { "name": "3 star", "count": 2100 },
-    { "name": "4 star", "count": 6900 },
-    { "name": "5 star", "count": 9200 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/VhkRbz8/quickpay.png",
-  "title": "QuickPay",
-  "companyName": "PayFlow",
-  "id": 21,
-  "description": "QuickPay enables fast and secure mobile payments. Users can send and receive money, track transactions, and manage digital payments easily with a safe and user-friendly interface.",
-  "size": 52,
-  "reviews": "14.5k",
-  "ratingAvg": 4.4,
-  "downloads": "2.7M",
-  "ratings": [
-    { "name": "1 star", "count": 480 },
-    { "name": "2 star", "count": 610 },
-    { "name": "3 star", "count": 1900 },
-    { "name": "4 star", "count": 5100 },
-    { "name": "5 star", "count": 6410 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/7J240NQH/artify.png",
-  "title": "Artify",
-  "companyName": "Creative Labs",
-  "id": 22,
-  "description": "Artify is a creative digital drawing application that allows users to paint, sketch, and design artwork using a variety of brushes and colors. It supports both beginners and professional artists.",
-  "size": 97,
-  "reviews": "11.9k",
-  "ratingAvg": 4.5,
-  "downloads": "1.9M",
-  "ratings": [
-    { "name": "1 star", "count": 320 },
-    { "name": "2 star", "count": 410 },
-    { "name": "3 star", "count": 1600 },
-    { "name": "4 star", "count": 4200 },
-    { "name": "5 star", "count": 5370 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/Kxzb94rV/drivecloud.png",
-  "title": "DriveCloud",
-  "companyName": "Cloudify",
-  "id": 23,
-  "description": "DriveCloud provides secure cloud storage for documents, photos, and files. Users can upload, organize, and access their data from any device while keeping everything safely backed up online.",
-  "size": 110,
-  "reviews": "27.4k",
-  "ratingAvg": 4.7,
-  "downloads": "5.9M",
-  "ratings": [
-    { "name": "1 star", "count": 600 },
-    { "name": "2 star", "count": 720 },
-    { "name": "3 star", "count": 2100 },
-    { "name": "4 star", "count": 8300 },
-    { "name": "5 star", "count": 15700 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/0RN6yMpS/sleepwell.png",
-  "title": "SleepWell",
-  "companyName": "MindCare",
-  "id": 24,
-  "description": "SleepWell helps users improve sleep quality through relaxing sounds, guided sessions, and calming techniques that reduce stress and promote better nighttime routines.",
-  "size": 46,
-  "reviews": "10.6k",
-  "ratingAvg": 4.3,
-  "downloads": "1.4M",
-  "ratings": [
-    { "name": "1 star", "count": 410 },
-    { "name": "2 star", "count": 560 },
-    { "name": "3 star", "count": 1700 },
-    { "name": "4 star", "count": 3900 },
-    { "name": "5 star", "count": 4030 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/20L4TSkc/routex.png",
-  "title": "RouteX",
-  "companyName": "MapWorks",
-  "id": 25,
-  "description": "RouteX helps drivers find the fastest routes and receive real-time traffic updates. The navigation system ensures users reach their destination efficiently while avoiding traffic delays.",
-  "size": 70,
-  "reviews": "16.2k",
-  "ratingAvg": 4.1,
-  "downloads": "2.2M",
-  "ratings": [
-    { "name": "1 star", "count": 720 },
-    { "name": "2 star", "count": 980 },
-    { "name": "3 star", "count": 2600 },
-    { "name": "4 star", "count": 5400 },
-    { "name": "5 star", "count": 6500 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/TBPRxs2y/scanqr.webp",
-  "title": "ScanQR",
-  "companyName": "CodeSnap",
-  "id": 26,
-  "description": "ScanQR allows users to scan QR codes quickly and safely. The app instantly reads codes for websites, payments, and information sharing while maintaining a smooth scanning experience.",
-  "size": 18,
-  "reviews": "5.1k",
-  "ratingAvg": 4.0,
-  "downloads": "480k",
-  "ratings": [
-    { "name": "1 star", "count": 230 },
-    { "name": "2 star", "count": 310 },
-    { "name": "3 star", "count": 1200 },
-    { "name": "4 star", "count": 1900 },
-    { "name": "5 star", "count": 1460 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/0jQhMtMw/skillup.png",
-  "title": "SkillUp",
-  "companyName": "CareerBoost",
-  "id": 27,
-  "description": "SkillUp provides courses and mentorship programs designed to help users learn job-ready skills and improve their career opportunities through practical and structured learning.",
-  "size": 83,
-  "reviews": "21.7k",
-  "ratingAvg": 4.6,
-  "downloads": "3.8M",
-  "ratings": [
-    { "name": "1 star", "count": 520 },
-    { "name": "2 star", "count": 610 },
-    { "name": "3 star", "count": 1900 },
-    { "name": "4 star", "count": 7200 },
-    { "name": "5 star", "count": 10470 }
-  ]
-},
-{
-  "image": "https://i.ibb.co.com/wFj27P5h/gamezone.webp",
-  "title": "GameZone",
-  "companyName": "PlayVerse",
-  "id": 28,
-  "description": "GameZone is a gaming platform where users can explore trending games, challenge friends, and enjoy competitive gameplay. It offers a fun environment with multiple game options and social features.",
-  "size": 140,
-  "reviews": "33.9k",
-  "ratingAvg": 4.4,
-  "downloads": "7.4M",
-  "ratings": [
-    { "name": "1 star", "count": 1100 },
-    { "name": "2 star", "count": 1400 },
-    { "name": "3 star", "count": 3900 },
-    { "name": "4 star", "count": 10500 },
-    { "name": "5 star", "count": 17000 }
-  ]
-}
+    "image": "https://i.ibb.co.com/kg5VmG61/travelio.jpg",
+    "title": "Travelio",
+    "companyName": "GoWorld",
+    "id": 13,
+    "description": "Travelio is a travel planning application created to simplify trip organization. Users can explore popular destinations and travel ideas around the world. The app helps users plan itineraries and manage travel schedules easily. Hotel booking and destination information are available in one place. Travel guides help users learn about attractions and activities. The interface is designed to make trip planning simple and enjoyable. Travelio also suggests destinations based on user interests. Notifications keep users informed about travel updates and deals. Travelers can save favorite destinations for future trips. Travelio makes travel preparation convenient and exciting.",
+    "size": 92,
+    "reviews": "31.6k",
+    "ratingAvg": 4.7,
+    "downloads": "6.8M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 9500 },
+      { "name": "5 star", "count": 18700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tp6pPFDJ/scanit.png",
+    "title": "ScanIt",
+    "companyName": "DocuSmart",
+    "id": 14,
+    "description": "ScanIt is a smart document scanning application that turns your phone into a portable scanner. Users can capture documents quickly using their camera. The app automatically detects edges and enhances document clarity. Scanned files can be saved as digital copies for easy storage. Users can organize and share documents instantly. ScanIt supports scanning receipts, notes, and paperwork efficiently. The interface is simple and designed for quick scanning tasks. Document quality is improved through automatic image adjustments. Files can be exported and shared easily. ScanIt helps users keep documents organized digitally.",
+    "size": 36,
+    "reviews": "9.9k",
+    "ratingAvg": 4.2,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 390 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 3090 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d44PhwTt/langaguo.jpg",
+    "title": "Languago",
+    "companyName": "LinguaWorks",
+    "id": 15,
+    "description": "Languago is a language learning platform designed to help users master new languages easily. The app provides interactive lessons that focus on vocabulary and pronunciation. Users can practice through quizzes and speaking exercises. Daily learning activities help maintain consistent progress. The interface is simple and beginner friendly. Lessons are designed to be short and engaging. Progress tracking helps users measure improvement over time. The app supports multiple languages for global learning. Learning reminders help users stay consistent with their studies. Languago makes language learning fun and accessible.",
+    "size": 66,
+    "reviews": "22.1k",
+    "ratingAvg": 4.5,
+    "downloads": "3.9M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 7100 },
+      { "name": "5 star", "count": 11100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q3yR53h9/clockify.png",
+    "title": "Clockify",
+    "companyName": "TimeBox",
+    "id": 16,
+    "description": "Clockify is a time tracking application designed for productivity and work management. Users can track how much time they spend on tasks and projects. The app helps freelancers and professionals monitor their work hours. Daily time logs provide detailed activity summaries. The interface is clean and easy to use. Clockify also generates reports that show productivity patterns. Users can organize tasks and projects for better workflow management. Notifications help remind users to track their time regularly. Data synchronization ensures time records stay updated across devices. Clockify helps improve productivity and time awareness.",
+    "size": 29,
+    "reviews": "4.7k",
+    "ratingAvg": 4.0,
+    "downloads": "350k",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 1280 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7tfchNsr/secureit.png",
+    "title": "SecureIt",
+    "companyName": "CyberSafe",
+    "id": 17,
+    "description": "SecureIt is a powerful password manager designed to protect user accounts and credentials. The app stores passwords securely using advanced encryption technology. Users can generate strong passwords for better account security. Login information can be accessed quickly whenever needed. The interface is simple and designed for safe password management. SecureIt also helps users organize credentials for multiple services. Security alerts notify users about weak or repeated passwords. Data synchronization allows access across multiple devices. User privacy and protection remain the top priority. SecureIt helps maintain safe and organized digital accounts.",
+    "size": 40,
+    "reviews": "13.6k",
+    "ratingAvg": 4.6,
+    "downloads": "2.3M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 6780 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TDbZP7w8/podcastly.png",
+    "title": "Podcastly",
+    "companyName": "AudioHub",
+    "id": 18,
+    "description": "Podcastly is a podcast streaming platform designed for audio content lovers. Users can explore thousands of podcasts across different topics. The app offers personalized recommendations based on listening habits. Smooth audio streaming ensures uninterrupted listening experiences. Podcast episodes can be saved for later listening. The interface is modern and easy to navigate. Users can subscribe to favorite shows and creators. Offline listening allows users to download episodes easily. Notifications keep listeners updated about new releases. Podcastly makes discovering and enjoying podcasts simple and enjoyable.",
+    "size": 58,
+    "reviews": "17.2k",
+    "ratingAvg": 4.4,
+    "downloads": "2.9M",
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 810 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 7470 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zHPJ10YG/eventify.png",
+    "title": "Eventify",
+    "companyName": "PlanIt",
+    "id": 19,
+    "description": "Eventify is an event management application designed to help users organize gatherings and activities. Users can create events and invite friends easily. The app also allows users to explore events happening nearby. Event reminders ensure that important occasions are not missed. The interface is simple and user friendly. Event planning tools help users manage details efficiently. Users can share invitations and track attendance. Notifications keep everyone updated about event changes. The platform encourages community engagement and social activities. Eventify simplifies planning and attending events.",
+    "size": 64,
+    "reviews": "7.8k",
+    "ratingAvg": 4.2,
+    "downloads": "620k",
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KjZnBfTC/readify.png",
+    "title": "Readify",
+    "companyName": "BookNest",
+    "id": 20,
+    "description": "Readify is a digital reading platform created for book lovers and knowledge seekers. Users can explore a large collection of ebooks and audiobooks. The app provides multiple genres including fiction, education, and self development. Reading settings allow users to adjust fonts and brightness. Bookmark features help readers save important sections. The interface is comfortable for long reading sessions. Users can track their reading progress easily. Offline reading allows access without internet connection. Personalized recommendations suggest books based on interests. Readify creates a relaxing and enjoyable reading experience.",
+    "size": 88,
+    "reviews": "19.3k",
+    "ratingAvg": 4.6,
+    "downloads": "3.6M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 6900 },
+      { "name": "5 star", "count": 9200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VhkRbz8/quickpay.png",
+    "title": "QuickPay",
+    "companyName": "PayFlow",
+    "id": 21,
+    "description": "StudyMate is a smart learning application designed to help students organize their study time effectively. The app provides tools for creating study schedules and reminders for important tasks. Users can create notes and highlight key information for easier revision. StudyMate includes flashcards and quiz features that help improve memory and understanding. The interface is clean and simple so students can focus on learning without distractions. The app also allows syncing notes across multiple devices. Students can track their learning progress with helpful analytics tools. It supports multiple subjects and topics in one organized workspace. StudyMate encourages consistent learning through reminders and motivational tips. It is a helpful companion for students who want to improve productivity and academic performance.",
+    "size": 52,
+    "reviews": "14.5k",
+    "ratingAvg": 4.4,
+    "downloads": "2.7M",
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 6410 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7J240NQH/artify.png",
+    "title": "Artify",
+    "companyName": "Creative Labs",
+    "id": 22,
+    "description": "ShopEasy is a convenient online shopping application that makes purchasing products simple and fast. Users can explore thousands of products across multiple categories. The app offers secure payment options and fast checkout for a smooth shopping experience. ShopEasy also provides personalized product recommendations based on user preferences. Customers can track orders and delivery status directly from the app. The interface is designed to make browsing products easy and enjoyable. Users can read product reviews and ratings before making a purchase. Exclusive discounts and deals are frequently available for users. Notifications keep customers updated about new offers and sales. ShopEasy aims to make online shopping reliable, affordable, and convenient for everyone.",
+    "size": 97,
+    "reviews": "11.9k",
+    "ratingAvg": 4.5,
+    "downloads": "1.9M",
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5370 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kxzb94rV/drivecloud.png",
+    "title": "DriveCloud",
+    "companyName": "Cloudify",
+    "id": 23,
+    "description": "MusicWave is a music streaming application that allows users to listen to millions of songs anytime. The app provides personalized playlists based on listening habits. Users can explore new music from different genres and artists easily. MusicWave supports high-quality audio streaming for a better listening experience. The interface is modern and simple to navigate. Users can download songs for offline listening when internet is unavailable. The app also allows users to create and share playlists with friends. MusicWave provides daily music recommendations and trending tracks. It also includes podcasts and audio shows for entertainment. MusicWave is perfect for anyone who loves discovering and enjoying music.",
+    "size": 110,
+    "reviews": "27.4k",
+    "ratingAvg": 4.7,
+    "downloads": "5.9M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 8300 },
+      { "name": "5 star", "count": 15700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0RN6yMpS/sleepwell.png",
+    "title": "SleepWell",
+    "companyName": "MindCare",
+    "id": 24,
+    "description": "TravelBuddy is a travel planning application that helps users organize trips easily. The app provides destination guides and travel recommendations for many countries. Users can book hotels and flights directly through the platform. TravelBuddy also includes maps and navigation features for exploring new places. Travelers can save favorite destinations and plan itineraries. The app provides travel tips and local attraction suggestions. Users can track travel budgets and expenses during trips. TravelBuddy helps users discover restaurants and interesting places nearby. The interface is designed to make trip planning simple and enjoyable. TravelBuddy is a great companion for travelers who love exploring the world.",
+    "size": 46,
+    "reviews": "10.6k",
+    "ratingAvg": 4.3,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 560 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 3900 },
+      { "name": "5 star", "count": 4030 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/20L4TSkc/routex.png",
+    "title": "RouteX",
+    "companyName": "MapWorks",
+    "id": 25,
+    "description": "TaskHero is a productivity application designed to help users manage tasks efficiently. The app allows users to create task lists and set deadlines. Notifications remind users about important tasks and activities. TaskHero also supports project organization with multiple categories. Users can track progress and mark tasks as completed easily. The interface is simple and designed for quick task management. TaskHero helps reduce stress by organizing daily responsibilities clearly. It also includes productivity tips and time management tools. Users can sync tasks across devices for convenience. TaskHero is ideal for people who want to stay organized and productive every day.",
+    "size": 70,
+    "reviews": "16.2k",
+    "ratingAvg": 4.1,
+    "downloads": "2.2M",
+    "ratings": [
+      { "name": "1 star", "count": 720 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 6500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TBPRxs2y/scanqr.webp",
+    "title": "ScanQR",
+    "companyName": "CodeSnap",
+    "id": 26,
+    "description": "WeatherNow is a reliable weather forecasting application that provides accurate updates. Users can check current weather conditions in real time. The app provides hourly and weekly forecasts for better planning. WeatherNow also shows temperature, humidity, and wind information. The interface is visually clean and easy to understand. Users receive notifications about important weather changes. The app supports multiple cities and locations for tracking weather. WeatherNow also includes beautiful weather animations and themes. It helps users prepare for daily activities and travel plans. WeatherNow ensures users stay informed about weather conditions at all times.",
+    "size": 18,
+    "reviews": "5.1k",
+    "ratingAvg": 4.0,
+    "downloads": "480k",
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 1460 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0jQhMtMw/skillup.png",
+    "title": "SkillUp",
+    "companyName": "CareerBoost",
+    "id": 27,
+    "description": "NoteCraft is a digital note-taking application designed for students and professionals. The app allows users to create organized notes quickly. Users can add images, lists, and formatting to their notes. NoteCraft supports cloud syncing so notes are accessible anywhere. The interface is minimal and focused on writing productivity. Users can categorize notes into folders for easy management. The search feature allows quick access to important information. NoteCraft also supports exporting notes in multiple formats. Users can collaborate and share notes with others. NoteCraft is perfect for anyone who wants a reliable digital notebook.",
+    "size": 83,
+    "reviews": "21.7k",
+    "ratingAvg": 4.6,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 10470 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wFj27P5h/gamezone.webp",
+    "title": "GameZone",
+    "companyName": "PlayVerse",
+    "id": 28,
+    "description": "GameZone is an entertainment platform designed for users who enjoy playing mobile games. The app allows players to explore a variety of trending and popular games. Users can compete with friends and challenge other players online. The platform provides smooth gameplay and attractive graphics. GameZone regularly updates its collection with new game experiences. Leaderboards and achievements make gameplay more competitive and exciting. Players can track their scores and improve performance over time. The interface is simple so players can start gaming quickly. Games load efficiently and run smoothly on most devices. GameZone offers endless fun and entertainment for gamers of all ages.",
+    "size": 140,
+    "reviews": "33.9k",
+    "ratingAvg": 4.4,
+    "downloads": "7.4M",
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3900 },
+      { "name": "4 star", "count": 10500 },
+      { "name": "5 star", "count": 17000 }
+    ]
+  }
 ]

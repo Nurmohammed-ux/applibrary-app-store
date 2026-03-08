@@ -15,7 +15,7 @@ const InstallApp = ({ app, handleRemoveApp }) => {
     <div className="bg-white p-4 flex justify-between items-center my-4 rounded-sm">
       <div className="flex gap-3 md:gap-10 items-center">
         <img
-          className="h-full w-20 rounded-lg shadow-sm"
+          className="h-20 w-20 rounded-sm shadow-sm"
           src={image}
           alt={title}
         />

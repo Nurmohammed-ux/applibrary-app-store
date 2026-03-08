@@ -56,11 +56,11 @@ const AppDetails = () => {
     <div className="bg-[#f8fafc] py-12 md:py-20 px-4 md:px-10 lg:px-20 overflow-hidden min-h-screen">
       <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center lg:items-start gap-10 pb-14">
         <img
-          className="flex-1 h-48 w-48 md:h-64 md:w-64 lg:h-80 lg:w-80 shrink-0 min-w-48 md:min-w-[256px] lg:min-w-[320px] rounded-2xl object-cover shadow-md"
+          className="lg:flex-1 h-48 w-48 md:h-64 md:w-64 lg:h-82 lg:w-80 shrink-0 min-w-48 md:min-w-[256px] lg:min-w-[320px] rounded-sm object-cover shadow-md"
           src={image}
           alt={title}
         />
-        <div className="flex-1 text-center lg:text-left">
+        <div className="flex-2 text-center lg:text-left">
           <div className="border-b border-gray-200 pb-5 lg:pb-8">
             <h3 className="text-4xl md:text-5xl font-bold mb-2 text-gray-900">
               {title}
